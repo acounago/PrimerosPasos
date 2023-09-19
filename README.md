@@ -46,6 +46,7 @@ Para crear el contenedor sin nombre:
 *El comando es: docker system df*
 
 **8. ¿Cuanta RAM ocupan los contenedores? Crea cuántos contenedores necesites para calcularlo.**
+
 *Usamos el comando #docker stats para comprobarlo y vemos que ocupan:49 MiB*
 
 
