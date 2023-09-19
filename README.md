@@ -1,26 +1,26 @@
 **1. Descarga la imagen 'ubuntu y comprueba que está en tu equipo**
 
 *Comando para la descarga de la imagen de ubuntu:* 
-*#docker run -it --name asir_2 ubuntu:bionic-20230530 bash*
+  *#docker run -it --name asir_2 ubuntu:bionic-20230530 bash*
 *Comando para la comprobación de que está en nuestro equipo:*
-*#docker images*
+  *#docker images*
 
 
 **2. Crea un contenedor sin ponerle nombre. ¿está arrancado? Obtén el nombre**
 
 Para crear el contenedor sin nombre:
-*#docker run ubuntu bash*
+  *#docker run ubuntu bash*
 *No se está arrancando.*
 *Comando para obtener el nombre:*
-*#docker ps -a*
+  *#docker ps -a*
 
 
 **3. Crea un contenedor con el nombre 'ubu1'. ¿Como puedes acceder a él?**
 
 *Comando para crear el contenedor y acceder a el:*
-*#docker run -it --name ubu1 ubuntu bash*
+  *#docker run -it --name ubu1 ubuntu bash*
 *En el caso de querer acceder a el desde fuera, usamos este comando:*
-*docker exec -it ubu1 bash*
+  *docker exec -it ubu1 bash*
 
 
 **4. Comprueba que ip tiene y si puedes hacer un ping a google.com**
