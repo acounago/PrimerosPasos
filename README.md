@@ -10,7 +10,7 @@
 
 **2. Crea un contenedor sin ponerle nombre. ¿está arrancado? Obtén el nombre**
 
-- Para crear el contenedor sin nombre:
+- *Para crear el contenedor sin nombre:*
 
         docker run ubuntu bash
 
@@ -37,7 +37,7 @@
 - *Instalamos el paquete*
 
         apt install net-tools 
-    y con el comando
+    *y con el comando*
 
         ifconfig 
     *comprobamos que la ip es: 172.17.0.4*
